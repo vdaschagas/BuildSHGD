@@ -1,0 +1,132 @@
+YAM
+REGRA 
+Um jogo que oferece a combinação de sorte com raciocínio lógico. 
+Vence o jogo quem conseguir o maior numero de pontos possível. 
+Yam pode ser jogado por um numero qualquer de pessoas. 
+Porém, jogar com um numero superior a 6 pode tornar o jogo muito lento.
+
+
+COMPONENTES 
+• 5 dados • 1 bloco de tabelas • 1 copo
+
+PREPARAÇÃO 
+Cada jogador precisa de uma folha do bloco de tabelas e de um lápis ou caneta.
+
+OBJETIVO DO JOGO 
+Preencher todos os quadros da tabela de modo a obter, no resultado total final, o maior número de pontos possível.
+
+TABELA 
+Todos os quadros da tabela devem ser preenchidos. 
+Quando, terminados os lançamentos, o jogador não  conseguir um resultado satisfatório, 
+deve riscar qualquer um dos quadros que ainda estiver em branco.
+
+JOGANDO OS DADOS 
+Inicia o jogo quem obtiver o maior resultado no lançamento dos dados. 
+Cada jogador pode, na sua vez, lançar no máximo 3 vezes o dado. 
+O primeiro lançamento e feito com todos os dados. 
+Se o jogador não ficar satisfeito com os resultados do lance, poderá retirar um, 
+alguns ou todos os dados e lançar os restantes uma segunda vez. 
+Este processo pode ser repetido no terceiro lance. 
+O uso inteligente dos dois lançamentos opcionais pode mudar um primeiro (ou segundo) mal lançamento 
+para uma jogada de bom resultado.
+
+PREENCHIMENTO DA TABELA 
+1. COLUNAS 
+(SETA PARA BAIXO) DESCENDENTE 
+indica que o preenchimento deve ser feito de forma descendente (tanto para a seção superior quanto para a inferior). 
+Para se poder preencher a segunda linha desta coluna, a primeira linha devera obrigatoriamente estar preenchida ou riscada. 
+O mesmo vale para as linhas seguintes. Portanto, para se preencher a linha 5 na coluna e necessário 
+que já tenham sido preenchidas e/ou riscadas as linhas 1, 2, 3 e 4.
+
+(SETA PARA CIMA) ASCENDENTE 
+indica que o preenchimento deve ser feito de forma ascendente. 
+A ultima linha (Yam) tem que estar preenchida para se poder preencher a linha seguinte, como no caso anterior.
+
+(D) DESORDEM 
+pode ser preenchida em qualquer ordem.  Ex.: Pode-se preencher a linha S- sem estar preenchida a linha S+, ou qualquer outra.
+
+(S) SECO 
+só pode ser preenchida com o resultado do primeiro Iançamento. 
+Assim, se o resultado dos dados for um FULL HAND, pode-se preencher a linha (F) da coluna (S).
+
+2. LINHAS 
+SEÇÃO SUPERIOR 
+As linhas 1, 2, 3, 4, 5 e 6 correspondem ao resultado necessário no lançamento dos dados. 
+Portanto, para se preencher a linha 1 e preciso que saia nos dados pelo menos um [1] ; 
+na linha 2 ao menos um e assim por diante. Para se ter direito ao bônus é necessário 
+conseguir no 1°TOTAL um mínimo de 60 pontos. 
+tirando 2 [1] , 2 [2] , 3 [3], 3 [4], 3 [5] e 3 [6] , teríamos 2 + 4 + 9 + 12 + 15 + 18 = 60 pontos. 
+Obs.: O que conta é a soma dos resultados, que deve ser pelo menos 60. 
+Assim, se um jogador não conseguir tirar os 3 [4] , por exemplo, ainda poderá ganhar os 30 pontos de bônus 
+se conseguir somar pelos menos 60 pontos na seção superior da coluna. 
+Isso poderá ser feito compensando-se a perda de pontos na linha, através de um número maior de pontos nas outras linhas. 
+Exemplo: Se o resultado dos dados, após os três lances, for [1] [1] [1] [5] [6] e se o jogador quiser 
+(e puder) marcar o resultado na linha 1, então ele deverá colocar na devida coluna o valor 3 (3 x 1). 
+Em outro caso, se o jogador tiver 3 [6] , poderá colocar na linha 6 o resultado 18 (3 x 6). 
+Se, no entanto, só conseguisse 2 [6]  , marcaria o resultado 12 (2 x 6).
+
+SEÇÃO INFERIOR 
+A coluna RES. DADOS indica os resultados que o jogador deve obter nos dados, a cada linha. 
+Os valores impressos a esquerda devem ser somados ao resultado obtido nos dados. 
+Assim, na linha Q, adiciona-se ao resultado o valor 20, na linha F adiciona-se 30, etc.
+
+• (Q) QUADRA 
+indica a necessidade de se obter quatro valores iguais. 
+O valor adicionado ao resultado é 20. 
+Ex.: Se o jogador tirar [3] [3] [3] [3] [1] o seu resultado será 32 (3 x 4 + 20). 
+O dado restante é desprezado para efeito de contagem. 
+
+• (F) FULL HAND 
+o jogador deve obter 3 valores iguais + 2 valores iguais, mas diferentes dos anteriores. 
+O valor adicionado ao resultado é 30. 
+Ex.:[5] [5] [5] [1] [1]  neste caso o resultado a se computar será 47 (3 x 5 + 2 x 1 + 30). 
+
+• (S-) SEQUENCIA MINIMA  [1] [2] [3] [4] [5] 
+o valor adicionado é 35 e o resultado final é sempre 50 (1 + 2 + 3 + 4 + 5+ 35). 
+
+• (S+) SEQUENCIA MAXIMA [2] [3] [4] [5] [6] 
+o valor adicionado é 40 e o resultado final é sempre 60 (2 + 3 + 4 + 5 + 6 +40). 
+
+• MIN. E MÁX. : 
+São normalmente usados quando não se consegue nenhum resultado satisfatório que possa ser marcado em outra linha. 
+Estas duas linhas podem ser preenchidas com qualquer valor, desde que o valor mínimo seja menor que o valor máximo. 
+Porém, quanto mais altos forem estes valores mais pontos o jogador terá no resultado total e maior 
+será sua chance de vencer  o jogo. Estes valores podem ser diferentes para as 4 colunas.
+Ex.: Suponha que o resultado dos lances tenha sido: [1] [3] [4] [5] [6] o resultado final será 19 (1 + 3 + 4 + 5 + 6). 
+A esse resultado nada é acrescentado; o jogador poderá considerá-lo como pontos máximos ou pontos mínimos. 
+- Se considerar 19 como máximos, o maior valor mínimo para esta coluna será 18. 
+- Se considerar como mínimos, o menor valor máximo será 20. 
+Obs.: Se o jogador considerar um resultado de lances muito alto como pontos mínimos (como, 
+por exemplo [4] [5] [5] [6] [6] = 26 pontos) estará se arriscando, pois terá que conseguir um valor ainda mais alto 
+para pontos máximos desta coluna (no caso, superior a 27 pontos). 
+
+
+• YAM: 
+5 valores iguais. O valor adicionado é de 50 pontos. 
+Ex.: Se o jogador tirar ([4] [4] [4] [4] [4] o resultado será 5x 4 + 50)
+EXEMPLO DE UMA RODADA Primeiro lançamento: supondo-se que o resultado tenha sido [1] [1] [3] [3] [5], 
+o jogador terá as seguintes opções:
+A) Ele poderá retirar os dados 1, 2 e 5, lança-los novamente, e tentar tirar 3 [3] , uma quadra de 3 ou um YAM. 
+B) Ele poderá tentar uma seguida mínima, retirando o dado de valor 3 e lançando-o novamente.
+Segundo Lançamento: supondo que o jogador tenha escolhido a opção B e ao lançar o dado novamente 
+o resultado tenha sido: [1] [1] [2] [3] [5] 
+- Se o jogador quiser, pode parar neste instante e colocar o resultado na primeira linha da seção superior,
+ marcando o total 2 (2 x 1) na coluna apropriada. 
+- Pode entretanto insistir na segunda mínima, lançando novamente um dos dados.
+Terceiro lançamento: supondo-se que o resultado tenha sido [1] [2] [3] [5] [5] , 
+ele poderia colocar como resultado final o valor 10 (2 x 5) na linha 5 da coluna superior. 
+Se no entanto, este valor não for considerado como satisfatório, ele poderá riscar um quadro qualquer de sua escolha, 
+ou colocar o resultado 16 como máximo ou mínimo. 
+Obs.: A escolha da melhor alternativa para preenchimento da tabela após o lançamento dos dados, 
+será determinada pelo plano de jogo do próprio jogador.
+
+OBSERVAÇÕES IMPORTANTES: 
+1 - Somente um quadro em branco pode ser preenchido ao final de cada jogada, seja ela de 1, 2 ou 3 lançamentos. 
+2 - Um jogador pode ser forçado a "riscar" um quadro se, após analisar o ultimo lançamento dos dados, 
+verificar que o resultado obtido não pode ser utilizado para nenhuma das alternativas que ele tenha em branco. 
+3 - O jogo termina quando todos os quadros da tabela estiverem preenchidos. 
+4 - Para contagem de pontos, todos os quadros deverão estar preenchidos ou riscados.
+
+Bom Divertimento
+
+
