@@ -15,6 +15,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Cloud.Analytics;
+using System.Collections.Generic;
 
 
 public class StatusPlayer : MonoBehaviour {
@@ -101,6 +103,8 @@ public class StatusPlayer : MonoBehaviour {
 	bool activeCount;
 	AnimeEndGame aeg;
 	InputField goInput;
+	int positionReal;
+
 
 	// Use this for initialization
 	void Start () {
@@ -126,7 +130,7 @@ public class StatusPlayer : MonoBehaviour {
 		goInput = GameObject.Find ("textInput").GetComponent<InputField> ();
 		soma = 0;
 		NewGame ();
-
+		positionReal = 0;
 	}
 
 
@@ -345,6 +349,17 @@ public class StatusPlayer : MonoBehaviour {
 		
 		msgCurrent = "";
 		msg_gamer.Avisos (msgCurrent, true);
+		if (newRecord == true) {
+			positionReal = numberRegister + 1;
+		} else {
+			positionReal = 4;
+		}
+		UnityAnalytics.CustomEvent("gameOver", new Dictionary<string, object>
+		                           {
+			{ "rankScore", inventario.score },
+			{ "rankPosition", positionReal},
+			{ "numberRoll", inventario.jogada }
+		});
 
 		resultadoSorte.endGame.SetActive (true);
 		switch (newRecord) {
@@ -370,6 +385,8 @@ public class StatusPlayer : MonoBehaviour {
 
 
 	}
+
+
 
 
 

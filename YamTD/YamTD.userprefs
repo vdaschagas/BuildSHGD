@@ -1,10 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Dice\Scripts\ActionButton.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Dice\Scripts\UnityAnalyticsIntegration.cs">
     <Files>
-      <File FileName="Assets\Dice\Scripts\ViewInventary.cs" Line="50" Column="4" />
-      <File FileName="Assets\Dice\Scripts\Inventary.cs" Line="59" Column="2" />
-      <File FileName="Assets\Dice\Scripts\ActionButton.cs" Line="31" Column="1" />
+      <File FileName="Assets\Dice\Scripts\Dice.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dice\Scripts\StatusPlayer.cs" Line="330" Column="3" />
+      <File FileName="Assets\Dice\Scripts\Inventary.cs" Line="185" Column="3" />
+      <File FileName="Assets\Dice\Scripts\ModoView.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dice\Scripts\MoveDado.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dice\Scripts\Yam.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dice\Scripts\Loading.cs" Line="1" Column="1" />
+      <File FileName="Assets\Dice\Scripts\GameOver.cs" Line="99" Column="4" />
+      <File FileName="Assets\Dice\Scripts\UnityAnalyticsIntegration.cs" Line="21" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
