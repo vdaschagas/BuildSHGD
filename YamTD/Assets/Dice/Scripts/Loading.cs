@@ -58,7 +58,7 @@ public class Loading : Inventary {
 	Image fundoAzul;
 	Yam yamGame;
 	float countLoading;
-	float valueSlider;
+//	float valueSlider;
 	bool beginLoad;
 	bool loadInverntaryNow;
 	SoundEffects sound_button;
@@ -133,7 +133,7 @@ public class Loading : Inventary {
 			LinhasC2 = 0;
 			LinhasC3 = 0;
 			beginLoad = true;
-			valueSlider = 0;
+//			valueSlider = 0;
 			yamGame.endGame.SetActive (true);
 			msgCurrent = "";
 			yamGame.msg_gamer.Avisos (msgCurrent, true);

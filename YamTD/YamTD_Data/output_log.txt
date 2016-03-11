@@ -16,7 +16,7 @@ Platform assembly: F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\Unit
 Loading F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.232 seconds
+- Completed reload, in  0.199 seconds
 desktop: 1360x768 60Hz; virtual: 1360x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -24,8 +24,8 @@ desktop: 1360x768 60Hz; virtual: 1360x768 at 0,0
 Platform assembly: F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\Users\Valter\Documents\Unity\YamTD\YamTD_Data\Managed\System.dll (this message is harmless)
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 14.403051 ms
+UnloadTime: 9.909286 ms
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2197.
-Total: 5.680443 ms (FindLiveObjects: 0.435719 ms CreateObjectMapping: 0.132803 ms MarkObjects: 5.033538 ms  DeleteObjects: 0.075985 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 3.141426 ms (FindLiveObjects: 0.239936 ms CreateObjectMapping: 0.093784 ms MarkObjects: 2.735826 ms  DeleteObjects: 0.070166 ms)
 

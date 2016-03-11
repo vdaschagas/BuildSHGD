@@ -17,9 +17,9 @@ using UnityEngine;
 using System.Collections;
 
 public class MoveDado : MonoBehaviour {
-	Vector3 screenPoint;
-	Transform scanPos;
-	Vector3 offset;
+//	Vector3 screenPoint;
+//	Transform scanPos;
+//	Vector3 offset;
 	Yam selected_button;
 	Inventary inventario;
 	public int count;
@@ -35,7 +35,7 @@ public class MoveDado : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		scanPos = GetComponent<Transform> ();
+//		scanPos = GetComponent<Transform> ();
 		selected_button = GameObject.Find("app").GetComponent<Yam>();
 		inventario = GameObject.Find("app").GetComponent<Inventary>();
 		status_Player  = GameObject.Find("app").GetComponent<StatusPlayer>();
@@ -69,9 +69,9 @@ public class MoveDado : MonoBehaviour {
 	//Seleciona dados individualmente
 	void OnMouseDown()
 	{
-		screenPoint = Camera.main.WorldToScreenPoint(scanPos.position);
-		
-		offset = scanPos.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+//		screenPoint = Camera.main.WorldToScreenPoint(scanPos.position);
+//		
+//		offset = scanPos.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 		Die_d6 dd = GetComponent<Die_d6>();
 		count = 0;
 		if (status_Player.numberRoll > 0 && status_Player.numberRoll < 3) {

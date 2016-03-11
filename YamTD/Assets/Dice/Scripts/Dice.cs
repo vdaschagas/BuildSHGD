@@ -225,7 +225,7 @@ public class Dice : MonoBehaviour {
     {
 		// count the dice
         string v = ""+Count(dieType);
-		string x = "";
+//		string x = "";
 		if (dieType == "")
             v += " dados | ";
         else
@@ -235,8 +235,6 @@ public class Dice : MonoBehaviour {
         {
 			// no dieType specified to cumulate values per dieType ( if they are available )
 			if (Count("d6") > 0) v += AsString("d6");
-//            if (Count("d6") > 0) v += AsString("d6") + " | ";
-//            if (Count("d10") > 0) v += AsString("d10") + " | ";
         }
         else
         {
@@ -256,7 +254,6 @@ public class Dice : MonoBehaviour {
 
 				}
 			}
-//			r2.resDice = Value(dieType);
             v += " =" + Value(dieType);
 
 		}

@@ -98,7 +98,7 @@ public class Yam : MonoBehaviour {
 	Inventary inventario;
 	public string txtRandom;
 	public bool chkSCor;
-	bool mnuRight_GI;
+//	bool mnuRight_GI;
 	public SoundEffects sound_button;
 	public string dadoEscolhido;
 	public string dotNumber;
@@ -115,15 +115,15 @@ public class Yam : MonoBehaviour {
 	int countSum;
 	int elementoZero;
 	public bool beginGame;
-	AnimeEndGame aeg;
+//	AnimeEndGame aeg;
 	int tempRandom;
 	public Vector3[] v3Dado;
 	public Vector3[] v3Rota;
-	Slider slider_volume;
-	PercentAudio pAudio;
+//	Slider slider_volume;
+//	PercentAudio pAudio;
 	public Mensagem msg_gamer;
 	public string msgCurrent;
-	SaveGame sgame;
+//	SaveGame sgame;
 	public GameObject imgsButtonsYesNo;
 	public RadialBarProgress rBarProgress;
 	public GameObject go_radialBar;
@@ -153,11 +153,11 @@ public class Yam : MonoBehaviour {
 		inventario = GameObject.Find("app").GetComponent<Inventary>();
 		sound_button  = GameObject.Find("ground").GetComponent<SoundEffects>();
 		txt_score = GameObject.FindWithTag ("Pontos").GetComponent<Text>();
-		aeg = GameObject.Find("Canvas").GetComponent<AnimeEndGame>();
-		slider_volume = GameObject.FindGameObjectWithTag("sliderVolume").GetComponent<Slider>();
-		pAudio = GameObject.Find ("txtPercent").GetComponent<PercentAudio > ();
+//		aeg = GameObject.Find("Canvas").GetComponent<AnimeEndGame>();
+//		slider_volume = GameObject.FindGameObjectWithTag("sliderVolume").GetComponent<Slider>();
+//		pAudio = GameObject.Find ("txtPercent").GetComponent<PercentAudio > ();
 		msg_gamer = GameObject.Find ("Canvas").GetComponent<Mensagem> ();
-		sgame = GetComponent<SaveGame>();
+//		sgame = GetComponent<SaveGame>();
 		diceCurrent = new int[6];
 		diceSequence = new GameObject[6];
 		v3Dado = new Vector3[6];
@@ -185,7 +185,7 @@ public class Yam : MonoBehaviour {
 		imgsButtonsYesNo = GameObject.Find ("ImgSair");
 		imgsButtonsYesNo.SetActive (false);
 		regrasDoJogo.SetActive (false);
-		mnuRight_GI = false;
+//		mnuRight_GI = false;
 		prefOn = false;
 		inventario.tipo = inventario.CarregarString ("Config_Tipo");
 		dotNumber = inventario.tipo;
@@ -705,9 +705,7 @@ public class Yam : MonoBehaviour {
 			
 			string[] a = galleryDie.Split ('-');
 			string typeDice = galleryDie.Split ('-') [1];
-//
-//			inventario.cor = typeDice;
-			
+
 			if (inventario.cor_Random == true) {
 				inventario.cor = "Aleatoria";
 				if (inventario.GroupSingle == 2) {
@@ -839,7 +837,6 @@ public class Yam : MonoBehaviour {
 
 
 				//COLOCA NO INVENTARIO O TIPO DE DADO
-//				inventario.tipo = galleryDie;
 				if (galleryDie.IndexOf ("-dots") >= 0) {
 					tp = "Ponto";
 					dot_num = true;
@@ -871,8 +868,6 @@ public class Yam : MonoBehaviour {
 					inventario.Salvar ("Config_Cor_Random", tempRandom);
 					inventario.Salvar ("Config_Cor", txtRandom);
 				}
-
-
 
 
 
@@ -938,27 +933,6 @@ public class Yam : MonoBehaviour {
 					status = "d6";
 				}
 			}
-//			else
-//				if (mp.x - r.xMin < 115)
-//			{
-//				status = "d8  - not available in Dices - Light";
-//			}
-//			else
-//				if (mp.x - r.xMin < 147)
-//			{
-//				if (mlb) SetGalleryDie("d10-" + galleryDie.Split('-')[1]);
-//				status = "d10";
-//			}
-//			else
-//				if (mp.x - r.xMin < 180)
-//			{
-//				status = "d12  - not available in Dices - Light";
-//				if (mlb)
-//			}
-//			else
-//			{
-//				status = "d20  - not available in Dices - Light";
-//			}
 		}
 		else
 			if (PointInRect(mp, new Rect(r.xMin+ 12, r.yMin + 70, 200, 28)))
@@ -1024,50 +998,42 @@ public class Yam : MonoBehaviour {
 		switch (chk) {
 		case "red":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Vermelho";
 			select_color_dices.color = Color.red;
 			break;
 			
 		case "black":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Preto";
 			select_color_dices.color = Color.black;
 			break;
 			
 		case "white":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Branco";
 			select_color_dices.color = Color.white;
 			break;
 			
 		case "yellow":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Amarelo";
 			select_color_dices.color = Color.yellow;
 			break;
 			
 		case "green":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Verde";
 			select_color_dices.color = Color.green;
 			break;
 			
 		case "blue":
 			inventario.cor_Random = false;
-//			inventario.button_press[0] = false;
 			txtRandom = "Azul";
 			select_color_dices.color = Color.blue;
 			break;
 
 		case "all":
 			inventario.cor_Random = true;
-//			inventario.button_press[0] = inventario.cor_Random;
-//			inventario.button_press[1] = inventario.cor_Random;
 			txtRandom = "Aleatoria";
 			break;
 

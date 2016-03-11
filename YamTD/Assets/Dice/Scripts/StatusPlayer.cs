@@ -774,7 +774,6 @@ public class StatusPlayer : MonoBehaviour {
 	//Soma os resultados dos dados, dependendo da jogada
 	private int SomaJogada(bool fullDices, int value)
 	{
-		int bonus = 0;
 
 		for (int a=1; a < resultadoSorte.diceCurrent.Length; a++) {
 			if(fullDices == false){

@@ -47,7 +47,6 @@ public class Inventary : SaveLoad {
 	Image borderButton;
 
 	StatusPlayer status_Player;
-	Yam yam_Componets;
 	Loading loading_game;
 
 	bool LerTipo;
@@ -67,7 +66,6 @@ public class Inventary : SaveLoad {
 		rodada = 0;
 		jogada = 0;
 		score = 0;
-		yam_Componets = GameObject.Find("app").GetComponent<Yam>();
 		status_Player  = GameObject.Find("app").GetComponent<StatusPlayer>();
 		borderButton = GameObject.Find ("Mold_Button").GetComponent<Image> ();
 		borderPlayer = GameObject.Find ("L_Mold").GetComponent<Image> ();
@@ -93,6 +91,8 @@ public class Inventary : SaveLoad {
 			audioOn = true;
 			button_press [5] = audioOn;
 		}
+		tempAudio = CarregarInteiro("Config_Audio");
+
 		Buttons_Selected ();
 	}
 

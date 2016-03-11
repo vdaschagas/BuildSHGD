@@ -33,9 +33,8 @@ public class ModoView : MonoBehaviour {
 	int jogadaCurrent;
 	SoundEffects sound_button;
 	SaveGame salvar;
-	private Button button;
-	AudioSource audios;
-	bool activeCreditos;
+//	private Button button;
+//	bool activeCreditos;
 	public bool sair;
 	bool buttonEventEnter;
 	MenuEvent btn_menu;
@@ -50,12 +49,11 @@ public class ModoView : MonoBehaviour {
 	private Vector2 touchPos;
 	public bool touchedLeft = false;
 	public bool touchedRight = false;
-//	private int screenHeight;
 	private int screenWidth;
 	private Vector2 mouseCache;
 	private Vector2 mousePos;
-	Touch touch;
-	private Vector2 touchOrigin = -Vector2.one; //Used to store location of screen touch origin for mobile controls.
+//	Touch touch;
+//	private Vector2 touchOrigin = -Vector2.one; //Used to store location of screen touch origin for mobile controls.
 
 
 	// Use this for initialization
@@ -67,9 +65,8 @@ public class ModoView : MonoBehaviour {
 		inventario  = GameObject.Find("app").GetComponent<Inventary>();
 		salvar = GameObject.Find("app").GetComponent<SaveGame>();
 		jogadaCurrent = 0;
-		audios = GetComponent<AudioSource>();
-		button = GetComponent<Button>();
-		activeCreditos = false;
+//		button = GetComponent<Button>();
+//		activeCreditos = false;
 		sair = false;
 		buttonEventEnter = false;
 		btn_menu = GameObject.Find ("MenuBar").GetComponentInChildren<MenuEvent>();
@@ -139,21 +136,7 @@ public class ModoView : MonoBehaviour {
 				qmodo.SetMode(MODE_CARD);
 			}
 
-
-//				if (touchedRight)
-//				{
-//					qmodo.SetMode (MODE_ROLL);
-//					btn_menu.txtButtonGame.text = "Novo";
-//					touchedRight = false;
-//				}
-//
-//
-//				if (touchedLeft)
-//				{
-//					qmodo.SetMode(MODE_CARD);
-//					touchedLeft = false;
-//				}
-			}
+		}
 
 	}
 
@@ -179,48 +162,7 @@ public class ModoView : MonoBehaviour {
 			mousePos = Input.mousePosition;
 		}
 
-//		if (Input.touchCount > 1) {
-//			//For each touch
-//			foreach (Touch touch in Input.touches) {
-//				//Cache touch position
-//				touchCache = touch.position;
-////				//If touch x position is less than or equal to a fraction of the screen width
-////				if (touchCache.x <= fracScreenWidth) {
-////					touchedRight = true;
-////				}
-////				if (touchCache.x >= fracScreenWidth) {
-//////				if (touchCache.x >= widthMinusFrac)
-////					touchedLeft = true;
-////				}
-//
-//				if (touchCache.x > touchPos.x && (touchCache.x - touchPos.x) >= fracScreenWidth) {
-//					touchedLeft = true;
-//				}
-//				
-//				if (touchCache.x < touchPos.x && (touchPos.x - touchCache.x) >= fracScreenWidth) {
-//					touchedRight = true;
-//				}
-//			}
-//		} else {
-//			touchPos = touch.position;
-//		}
 	}
-
-
-
-
-//
-//	void TesteTouch()
-//	{
-//		for (int i = 0; i < Input.touchCount; ++i) {
-//			if (Input.GetTouch (i).phase == TouchPhase.Began) {
-//				// Construct a ray from the current touch coordinates
-////				ray = Camera.main.ScreenPointToRay(Input.GetTouch(i).position);
-////				if (Physics.Raycast(ray))
-////					Instantiate(particle, transform.position, transform.rotation);                			}
-//			}
-//		}
-//	}
 
 
 
