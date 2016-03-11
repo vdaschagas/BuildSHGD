@@ -186,7 +186,8 @@ public class Inventary : SaveLoad {
 		cor = CarregarString("Config_Cor");
 		cor_Random = CarregarBoolean("Config_Cor_Random");
 		tempAudio = CarregarInteiro("Config_Audio");
-		if (tempAudio != null || tempAudio.ToString() != "") {
+//		if (tempAudio != null || tempAudio.ToString() != "") {
+		if (tempAudio.ToString() != "") {
 			audioOn = CarregarBoolean ("Config_Audio");
 		} else {
 			audioOn = true;
