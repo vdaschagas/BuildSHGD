@@ -15,8 +15,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.Cloud.Analytics;
-using System.Collections.Generic;
+//using UnityEngine.Cloud.Analytics;
+//using System.Collections.Generic;
 
 
 public class StatusPlayer : MonoBehaviour {
@@ -355,12 +355,12 @@ public class StatusPlayer : MonoBehaviour {
 			positionReal = 4;
 		}
 
-		UnityAnalytics.CustomEvent("gameOver", new Dictionary<string, object>
-		                           {
-			{ "rankScore", inventario.score },
-			{ "rankPosition", positionReal},
-			{ "numberRoll", inventario.jogada }
-		});
+//		UnityAnalytics.CustomEvent("gameOver", new Dictionary<string, object>
+//		                           {
+//			{ "rankScore", inventario.score },
+//			{ "rankPosition", positionReal},
+//			{ "numberRoll", inventario.jogada }
+//		});
 
 		resultadoSorte.endGame.SetActive (true);
 		switch (newRecord) {

@@ -78,12 +78,11 @@
      <Compile Include="Assets\Scripts\SaveLoad.cs" />
      <Compile Include="Assets\Scripts\SoundEffects.cs" />
      <Compile Include="Assets\Scripts\StatusPlayer.cs" />
-     <Compile Include="Assets\Scripts\UnityAnalyticsIntegration.cs" />
      <Compile Include="Assets\Scripts\ValorDado.cs" />
      <Compile Include="Assets\Scripts\ViewInventary.cs" />
      <Compile Include="Assets\Scripts\Warning.cs" />
      <Compile Include="Assets\Scripts\Yam.cs" />
-     <None Include="Assets\Dice\-Read-Me-.txt" />
+     <None Include="Assets\-Read-Me-.txt" />
      <None Include="Assets\Other\LeiaMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -94,19 +93,9 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Cloud.Analytics">
- <HintPath>F:/Users/Valter/Documents/Unity/YamTD/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Cloud.Analytics.Util">
- <HintPath>F:/Users/Valter/Documents/Unity/YamTD/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>F:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{202ED312-1B69-8D13-554F-93836A42D478}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
