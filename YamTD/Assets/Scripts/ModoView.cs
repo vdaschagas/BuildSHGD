@@ -18,6 +18,8 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+
 
 public class ModoView : MonoBehaviour {
 	private const int MODE_GALLERY = 1;
@@ -255,8 +257,8 @@ public class ModoView : MonoBehaviour {
 		}
 		
 		if(btn_menu.txtButtonGame.text == "Novo"){
-			Application.LoadLevel ("YamGame");
-			btn_menu.txtButtonGame.text = "Jogo";
+            SceneManager.LoadScene("YamGame");
+            btn_menu.txtButtonGame.text = "Jogo";
 			goto pulaBotao;
 		}
 	pulaBotao:;

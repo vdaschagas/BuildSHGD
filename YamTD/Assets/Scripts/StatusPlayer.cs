@@ -15,8 +15,9 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-//using UnityEngine.Cloud.Analytics;
-//using System.Collections.Generic;
+using UnityEngine.Analytics;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 
 public class StatusPlayer : MonoBehaviour {
@@ -313,7 +314,7 @@ public class StatusPlayer : MonoBehaviour {
 
 		if (newRecord == false && countReload > 3) {
 			activeCount = false;
-			Application.LoadLevel ("YamGame");
+            SceneManager.LoadScene("YamGame");
 		}
 
 	}
@@ -355,12 +356,16 @@ public class StatusPlayer : MonoBehaviour {
 			positionReal = 4;
 		}
 
-//		UnityAnalytics.CustomEvent("gameOver", new Dictionary<string, object>
-//		                           {
-//			{ "rankScore", inventario.score },
-//			{ "rankPosition", positionReal},
-//			{ "numberRoll", inventario.jogada }
-//		});
+
+
+        Analytics.CustomEvent("gameOver", new Dictionary<string, object>
+                                   {
+            { "rankScore", inventario.score },
+            { "rankPosition", positionReal},
+            { "numberRoll", inventario.jogada }
+        });
+
+
 
 		resultadoSorte.endGame.SetActive (true);
 		switch (newRecord) {

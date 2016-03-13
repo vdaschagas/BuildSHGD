@@ -17,7 +17,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Events;
-//using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 
 
 
@@ -167,10 +167,9 @@ public class GameOver : MonoBehaviour {
 	{
 		ChoiceSave ();
 		status_Player.congratulation.SetActive (false);
-		Application.LoadLevel ("YamGame");
-
-//		SceneManager.LoadScene("prototype1");
-//		SceneManager.LoadScene(0);
+        //Application.LoadLevel ("YamGame");
+        SceneManager.LoadScene("YamGame");
+        //SceneManager.LoadScene(0);
 
 	}
 

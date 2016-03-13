@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StatusPlayer.cs">
     <Files>
-      <File FileName="Assets\Scripts\StatusPlayer.cs" Line="356" Column="4" />
+      <File FileName="Assets\Scripts\StatusPlayer.cs" Line="364" Column="3" />
+      <File FileName="Assets\Scripts\GameOver.cs" Line="123" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
