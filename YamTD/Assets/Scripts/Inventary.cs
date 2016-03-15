@@ -54,7 +54,6 @@ public class Inventary : SaveLoad {
 	Slider slider_volume;
 	public string msgCurrent;
 	int tempAudio;
-	public GameObject particleSmoke;
 
 
 	// Use this for initialization

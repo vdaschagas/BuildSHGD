@@ -35,8 +35,6 @@ public class ModoView : MonoBehaviour {
 	int jogadaCurrent;
 	SoundEffects sound_button;
 	SaveGame salvar;
-//	private Button button;
-//	bool activeCreditos;
 	public bool sair;
 	bool buttonEventEnter;
 	MenuEvent btn_menu;
@@ -54,8 +52,6 @@ public class ModoView : MonoBehaviour {
 	private int screenWidth;
 	private Vector2 mouseCache;
 	private Vector2 mousePos;
-//	Touch touch;
-//	private Vector2 touchOrigin = -Vector2.one; //Used to store location of screen touch origin for mobile controls.
 
 
 	// Use this for initialization
@@ -67,8 +63,6 @@ public class ModoView : MonoBehaviour {
 		inventario  = GameObject.Find("app").GetComponent<Inventary>();
 		salvar = GameObject.Find("app").GetComponent<SaveGame>();
 		jogadaCurrent = 0;
-//		button = GetComponent<Button>();
-//		activeCreditos = false;
 		sair = false;
 		buttonEventEnter = false;
 		btn_menu = GameObject.Find ("MenuBar").GetComponentInChildren<MenuEvent>();

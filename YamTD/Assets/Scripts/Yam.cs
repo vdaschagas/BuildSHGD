@@ -98,8 +98,7 @@ public class Yam : MonoBehaviour {
 	Inventary inventario;
 	public string txtRandom;
 	public bool chkSCor;
-//	bool mnuRight_GI;
-	public SoundEffects sound_button;
+	SoundEffects sound_button;
 	public string dadoEscolhido;
 	public string dotNumber;
 	bool dot_num;
@@ -115,15 +114,11 @@ public class Yam : MonoBehaviour {
 	int countSum;
 	int elementoZero;
 	public bool beginGame;
-//	AnimeEndGame aeg;
 	int tempRandom;
 	public Vector3[] v3Dado;
 	public Vector3[] v3Rota;
-//	Slider slider_volume;
-//	PercentAudio pAudio;
 	public Mensagem msg_gamer;
 	public string msgCurrent;
-//	SaveGame sgame;
 	public GameObject imgsButtonsYesNo;
 	public RadialBarProgress rBarProgress;
 	public GameObject go_radialBar;
@@ -153,11 +148,7 @@ public class Yam : MonoBehaviour {
 		inventario = GameObject.Find("app").GetComponent<Inventary>();
 		sound_button  = GameObject.Find("ground").GetComponent<SoundEffects>();
 		txt_score = GameObject.FindWithTag ("Pontos").GetComponent<Text>();
-//		aeg = GameObject.Find("Canvas").GetComponent<AnimeEndGame>();
-//		slider_volume = GameObject.FindGameObjectWithTag("sliderVolume").GetComponent<Slider>();
-//		pAudio = GameObject.Find ("txtPercent").GetComponent<PercentAudio > ();
 		msg_gamer = GameObject.Find ("Canvas").GetComponent<Mensagem> ();
-//		sgame = GetComponent<SaveGame>();
 		diceCurrent = new int[6];
 		diceSequence = new GameObject[6];
 		v3Dado = new Vector3[6];
@@ -185,7 +176,6 @@ public class Yam : MonoBehaviour {
 		imgsButtonsYesNo = GameObject.Find ("ImgSair");
 		imgsButtonsYesNo.SetActive (false);
 		regrasDoJogo.SetActive (false);
-//		mnuRight_GI = false;
 		prefOn = false;
 		inventario.tipo = inventario.CarregarString ("Config_Tipo");
 		dotNumber = inventario.tipo;
