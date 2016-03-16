@@ -1,8 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{514E8C0F-A6A8-F38C-F742-1459327C2444}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{ED05BD8B-2034-DCB1-D190-B7CA141683D0}") = "YamTD", "Assembly-CSharp.csproj", "{514E8C0F-A6A8-F38C-F742-1459327C2444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
